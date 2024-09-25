@@ -59,7 +59,7 @@ class UserAuthModel: ObservableObject {
                     print("token" + token)
                 
                 }
-                print (result.user.profile?.)
+                print (result.user.profile?.name)
                 
                 // Extract user information from result
                 let givenName = result.user.profile?.givenName
